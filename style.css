@@ -49,7 +49,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: red;
+    background: aqua;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -118,7 +118,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: red;
+    background: aqua;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -133,7 +133,7 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: rgb(231, 66, 66);
+    color: aqua;
     font-size: 14px;
 }
 .tab-contents{
@@ -174,7 +174,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),rgb(233, 51, 51));
+    background: linear-gradient(rgba(0,0,0,0.6),aqua);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -194,7 +194,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: red;
+    color: aqua;
     text-decoration: none;
     font-size: 18px;
     line-height: 30px;
@@ -231,7 +231,7 @@ nav ul li a:hover::after{
 }
 
 .contact-left p i{
-    color: rgb(235, 63, 63);
+    color: aqua;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -241,7 +241,7 @@ nav ul li a:hover::after{
 }
 
 .social-icons a{
-    color: rgb(244, 3, 3);
+    color: aqua;
     margin-right: 15px;
     font-size: 30px;
     text-decoration: none;
@@ -257,13 +257,13 @@ nav ul li a:hover::after{
 .cvbutton{
     margin: 50px auto;
     width: fit-content;
-    border: 2px solid red;
+    border: 3px solid rgb(158, 240, 240);
     border-radius: 8px;
     padding: 14px 50px;
     text-decoration: none;
-    color: white;
+    color: black;
     display: inline-block;
-    background: rgb(228, 14, 71);
+    background: aqua;
 }
 
 .contact-right form{
@@ -273,7 +273,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: rgb(184, 117, 117);
+    background: rgb(143, 235, 235);
     padding: 15px;
     margin: 15px 0;
     color: white;
@@ -305,6 +305,11 @@ nav .fa-solid{
         font-size: 30px;
     }
 
+    nav img{
+        height: 40px;
+        width: 50px;
+    }
+
     nav .fa-regular{
         display: block;
         font-size: 25px;
@@ -314,7 +319,7 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: rgb(230, 53, 53);
+        background: rgb(114, 223, 223);
         position: fixed;
         top: 0;
         right: -200px;
@@ -359,7 +364,7 @@ nav .fa-solid{
 }
 
 #msg{
-    color: red;
+    color: aqua;
     margin-top: -40px;
     display: block;
     font-size: 12px;
